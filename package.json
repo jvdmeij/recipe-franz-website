@@ -1,0 +1,14 @@
+{
+  "id": "website",
+  "name": "Website",
+  "version": "1.0.3",
+  "description": "Website",
+  "main": "index.js",
+  "author": "jasper <info@jaspervandermeij.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "{websiteUrl}",
+    "hasCustomUrl": true,
+    "hasNotificationSound": false
+  }
+}
