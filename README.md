@@ -1,5 +1,5 @@
-# Messenger for Franz
-This is the official Franz recipe for Messenger
+# Custom website recipe for Franz
+This is a recipe that allows you to add a custom website to Franz.
 
-### How to create your own Franz recipes:
-* [Read the documentation](https://github.com/meetfranz/plugins)
+## Todo
+Fetch favicon from website and use as icon in Franz
