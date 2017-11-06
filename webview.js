@@ -7,7 +7,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 const getFavIcon = function getFavIcon(count = 0) {
   console.log('getFavIcon', count);
   const CustomWebsiteUrl = document.location.host;
-  const favIconBase = 'https://plus.google.com/_/favicon?domain_url=';
+  const favIconBase = 'https://api.statvoo.com/favicon/?url=';
   const favIconUrl = favIconBase + CustomWebsiteUrl;
   console.log('FavIconUrl', favIconUrl);
   if (favIconUrl) {
