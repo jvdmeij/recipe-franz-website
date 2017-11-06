@@ -6,10 +6,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const getFavIcon = function getFavIcon(count = 0) {
   console.log('getFavIcon', count);
-  const favIconBase = 'https://plus.google.com/_/favicon?domain_url=https://www.cryptocompare.com/portfolio/';
-  console.log('FavIconUrl', favIconBase);
-  if (favIconBase) {
-    _electron.ipcRenderer.sendToHost('avatar', favIconBase);
+  const CustomWebsiteUrl = document.location.host;
+  const favIconBase = 'https://plus.google.com/_/favicon?domain_url=';
+  const favIconUrl = favIconBase + CustomWebsiteUrl;
+  console.log('FavIconUrl', favIconUrl);
+  if (favIconUrl) {
+    _electron.ipcRenderer.sendToHost('avatar', favIconUrl);
   }
 };
 
