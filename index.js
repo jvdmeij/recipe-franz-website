@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = Franz => class Messenger extends Franz {
+module.exports = Franz => class Website extends Franz {
   overrideUserAgent() {
     return window.navigator.userAgent.replace(/(Franz|Electron)([^\s]+\s)/g, '');
   }
