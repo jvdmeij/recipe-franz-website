@@ -14,4 +14,4 @@ Create the `dev` folder if you don't have it yet.
 4. Reload Franz
 5. Open Franz settings. Under 'available services' you will find a 'Development' section. Click on 'Website' and start configuring
 
-Note: You need to be a Franz supporter to use unofficial plugins.
+Note: You need to be a Franz supporter to use plugins with a configurable URL.
